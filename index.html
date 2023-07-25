@@ -3,15 +3,13 @@
 <html lang="en">
 
 <head>
-
+    
     <meta charset="UTF-8">
     <title> Formulário </title>
 
 </head>
 
-
 <body>
-
 
     <h1> Travel reservation form </h1>
     <h3> * denotes mandotory </h3>
@@ -37,7 +35,7 @@
     <input type="text" placeholder="m/d/y" pattern="[0-9]{8}" required/><br>
 
     <label> Number of persons*: </label> <br> 
-    <input type="text" placeholder="UNKNOWN_TYPE" pattern="[1-9]{1}" required/><br>
+    <input type="number" placeholder="UNKNOWN_TYPE" min="1" max="9" required/><br>
 
     <label> What would you want to avail?* </label> <br>
     Boarding <input type="checkbox" name="avail"/><br>
@@ -54,7 +52,6 @@
 
 
     </form>
-
     
 </body>
 
